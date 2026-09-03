@@ -34,17 +34,22 @@ Cada documento sigue la misma pauta:
 
 ## Índice general
 
-- [I. Antimicrobianos](resumenes/01-antimicrobianos/)
-- [II. Microbiología (enfocada a laboratorio)](resumenes/02-microbiologia/)
-- [III. Infectología hospitalaria](resumenes/03-hospitalaria/)
-- [IV. Infectología ambulatoria](resumenes/04-ambulatoria/)
-- [V. Infecciones en inmunocomprometidos](resumenes/05-inmunocomprometidos/)
-- [VI. Infección por VIH y sus complicaciones](resumenes/06-vih/)
-- [VII. Otras zoonosis e infecciones en viajeros](resumenes/07-zoonosis-viajeros/)
-- [VIII. Vacunas](resumenes/08-vacunas/)
+**85 resúmenes**, distribuidos en las ocho secciones del temario:
+
+| Sección | Documentos |
+|---|---|
+| [I. Antimicrobianos](resumenes/01-antimicrobianos/README.md) | 11 |
+| [II. Microbiología (enfocada a laboratorio)](resumenes/02-microbiologia/README.md) | 9 |
+| [III. Infectología hospitalaria](resumenes/03-hospitalaria/README.md) | 23 |
+| [IV. Infectología ambulatoria](resumenes/04-ambulatoria/README.md) | 15 |
+| [V. Infecciones en inmunocomprometidos](resumenes/05-inmunocomprometidos/README.md) | 8 |
+| [VI. Infección por VIH y sus complicaciones](resumenes/06-vih/README.md) | 5 |
+| [VII. Otras zoonosis e infecciones en viajeros](resumenes/07-zoonosis-viajeros/README.md) | 9 |
+| [VIII. Vacunas](resumenes/08-vacunas/README.md) | 5 |
 
 El índice detallado, tema por tema y con su categoría, está en
-[`INDICE.md`](INDICE.md).
+[`INDICE.md`](INDICE.md). La pauta de formato común a todos los documentos está en
+[`plantilla/PLANTILLA.md`](plantilla/PLANTILLA.md).
 
 ## Temas que ya tienen documento en la carpeta de Drive
 
