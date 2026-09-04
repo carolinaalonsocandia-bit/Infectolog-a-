@@ -51,6 +51,36 @@ El índice detallado, tema por tema y con su categoría, está en
 [`INDICE.md`](INDICE.md). La pauta de formato común a todos los documentos está en
 [`plantilla/PLANTILLA.md`](plantilla/PLANTILLA.md).
 
+## Versión en PDF
+
+La carpeta [`pdf/`](pdf/) contiene **los 95 documentos en PDF**, con la misma
+organización en ocho subcarpetas por sección. Están pensados para leer en el
+teléfono durante un turno, imprimir o subir a Drive.
+
+### Cómo subirlos a Google Drive
+
+1. En GitHub, entrar a la rama `claude/infectologia-temario-resumen-amw0jr` y usar
+   **Code → Download ZIP**.
+2. Descomprimir y abrir la carpeta `pdf/`.
+3. Arrastrar las ocho subcarpetas y los dos índices a la carpeta de Drive
+   [Resúmenes Infectología — Temario 2023](https://drive.google.com/drive/folders/1hAKmbos4a-NhMezOoGc9NaDwB3WrW8cz).
+
+> **Nota.** Esa carpeta de Drive ya contiene cinco documentos subidos como prueba
+> (los dos índices de la raíz, el índice de la Sección I y los resúmenes 01 y 02 de
+> Antimicrobianos). Conviene **borrarlos antes de arrastrar el resto** para no
+> quedar con duplicados.
+
+### Regenerar los PDF
+
+Si se edita o agrega un resumen, los PDF se reconstruyen con:
+
+```bash
+pip install reportlab pikepdf
+python3 herramientas/generar_pdf.py
+```
+
+El detalle del conversor está en [`herramientas/`](herramientas/README.md).
+
 ## Temas que ya tienen documento en la carpeta de Drive
 
 Cuatro temas del temario ya están cubiertos por los documentos de referencia y **no se
