@@ -62,13 +62,14 @@ teléfono durante un turno, imprimir o subir a Drive.
 1. En GitHub, entrar a la rama `claude/infectologia-temario-resumen-amw0jr` y usar
    **Code → Download ZIP**.
 2. Descomprimir y abrir la carpeta `pdf/`.
-3. Arrastrar las ocho subcarpetas y los dos índices a la carpeta de Drive
-   [Resúmenes Infectología — Temario 2023](https://drive.google.com/drive/folders/1hAKmbos4a-NhMezOoGc9NaDwB3WrW8cz).
+3. Seleccionar todo su contenido —las ocho subcarpetas y los dos índices— y
+   arrastrarlo a la carpeta de Drive
+   [Resúmenes Infectología — Temario 2023](https://drive.google.com/drive/folders/1hAKmbos4a-NhMezOoGc9NaDwB3WrW8cz),
+   que está vacía y lista para recibirlos.
 
-> **Nota.** Esa carpeta de Drive ya contiene cinco documentos subidos como prueba
-> (los dos índices de la raíz, el índice de la Sección I y los resúmenes 01 y 02 de
-> Antimicrobianos). Conviene **borrarlos antes de arrastrar el resto** para no
-> quedar con duplicados.
+> **Por qué vacía.** Drive no fusiona carpetas del mismo nombre: crea una segunda.
+> Por eso la carpeta se dejó sin contenido, para que al arrastrar quede la
+> estructura exacta y sin duplicados.
 
 ### Regenerar los PDF
 
